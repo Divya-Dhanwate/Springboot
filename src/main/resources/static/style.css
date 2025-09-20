@@ -1,0 +1,38 @@
+      div {
+        background-color: rgb(223, 201, 193);
+        width: 450px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 5px solid goldenrod;
+        margin-left: 500px;
+      }
+
+      body {
+        align-items: center;
+        display: flex;
+      }
+
+      button {
+        background-color: rgb(18, 8, 11);
+        width: 400px;
+        color: beige;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 20px;
+        box-shadow: 5px 5px 4px 4px solid green;
+      }
+
+      button:hover {
+        background-color: rgb(43, 32, 52);
+        width: 400px;
+      }
+
+      h1,
+      h3,
+      button {
+        align-items: center;
+        text-align: center;
+      }

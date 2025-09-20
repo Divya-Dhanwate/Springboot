@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Student Registration</h1>
+        <form action="" id="studentData">
+            <label for="studentname">Enter Your Name:</label>
+            <input type="text" placeholder="enter your name" name="name" required /><br /><br />
+
+            <label for="contact">Enter Your Contact:</label>
+            <input type="tel" name="contact" id="con" placeholder="enter number" maxlength="10" required />
+            <small>Enter exactly 10 digits</small><br /><br />
+
+            <label for="gmail">Gmail:</label>
+            <input type="gmail" name="gmail" required /><br /><br />
+
+            <label for="address">Address:</label>
+            <input type="text" placeholder="enter your address here" name="address" required /><br /><br />
+
+            <label for="admission">Admission Year:</label>
+            <input type="text" placeholder=" enter your admission Year" name="admission" required /><br /><br />
+
+            <label for="branch">Branch:</label>
+            <input type="text" name="branch" placeholder="enter your branch here" required /><br /><br />
+
+            <label for="dates">BirthDate:</label>
+            <input type="date" name="dates" required /><br /><br />
+
+            <label for="admissionType">Admission Type</label>
+            <select name="admissionType" id="" required>
+                <option value=""></option>
+                <option value="CAP">CAP</option>
+                <option value="Management">Management</option>
+                <option value="OTHER">OTHER</option>
+            </select>
+            <label for="category">category:</label>
+            <select name="category" id="" required>
+                <option value=""></option>
+                <option value="OPEN">OPEN</option>
+                <option value="EWS">EWS</option>
+                <option value="SC/ST">SC/ST</option>
+                <option value="OTHER">OTHER</option>
+            </select>
+            <label for="studentClass">Class:</label>
+            <select name="studentClass" id="" required>
+                <option value=""></option>
+                <option value="FE">FE</option>
+                <option value="SE">SE</option>
+                <option value="TE">TE</option>
+                <option value="BE">BE</option>
+            </select>
+            <hr />
+            <h3>Parents Information</h3>
+
+            <label for="parentname">Enter Name</label>
+            <input type="text" placeholder="enter parents full name " name="parentname" required /><br /><br />
+            <label for="parentsContact">parants contact:</label>
+            <input type="tel" name="parentsContact" id="contact" placeholder="enter parents whatsapp number" maxlength="10"
+                required /><br /><br />
+            <label for="occupation">Occupation</label>
+            <input type="text" name="occupation" placeholder=" enter your parents occupation" /><br /><br /><br />
+            <button id="Submit">Submit</button>
+        </form>
+    </div>
+   <script src="/script.js"></script>
+</body>
+
+</html>
